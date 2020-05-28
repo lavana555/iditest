@@ -1153,6 +1153,10 @@ a {
 
 @media (max-width: 497px) {
 
+    .header__navmenu{
+        padding-top: 5px;
+    }
+
     .heder_box_footer_item {
         margin-top: 0;
     }
@@ -1164,11 +1168,17 @@ a {
     .header {
         min-height: 118vh;
     }
+    .popular_item_decription{
+        width: auto;
+    }
 }
 
 @media (max-width: 375px) {
     .header {
         min-height: 138vh;
+    }
+    .header_phone{
+        padding: 5px 0;
     }
 }
 
